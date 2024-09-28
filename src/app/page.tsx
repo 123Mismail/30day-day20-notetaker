@@ -1,14 +1,15 @@
-
  
-import React from 'react'
-import ProfileViewer from './component/profileViewer'
-
-const Page = () => {
-  return (
-    <div >
-   <ProfileViewer/>
-    </div>
-  )
-}
-
-export default Page
+  import React from 'react'
+ 
+ 
+import NotesApp from '@/app/component/noteTaker'
+  const Page = () => {
+    return (
+    <>
+        {/* <NoteTaker/> */}
+        <NotesApp/>
+        </>
+    )
+  }
+  
+  export default Page
